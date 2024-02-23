@@ -1,0 +1,14 @@
+
+.sector {
+    margin-top: 40px;
+}
+
+.container_img {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container_img img {
+    width: 100%;
+}

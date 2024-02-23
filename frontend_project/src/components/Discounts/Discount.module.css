@@ -1,0 +1,53 @@
+.title {
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 218px;
+    height: 58px;
+}
+
+.discount_background {
+    margin-bottom: 40px;
+    height: 600px;
+    position: relative;
+}
+
+.bottom_top {
+    height: 80px;
+}
+
+.image {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(max-width: 1000px) {
+    .discount_background{
+        height: 476px;
+    }
+}
+
+@media(max-width: 768px) {
+    .discount_background {
+        height: 634px;
+    }
+}
+
+@media(max-width: 480px) {
+    .btn {
+        height: 46px;
+    }
+    .discount_background{
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 360px) {
+    .discount_background {
+        margin-bottom: 0px;
+    }
+}
